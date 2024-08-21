@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=New+Amsterdam&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family:sans-serif;
 }
 
 body{
@@ -27,9 +30,6 @@ body{
 
 }
 
-.header h1{
-    margin-bottom: 1rem;
-}
 
 .image-container{
     width: 90%;
@@ -76,4 +76,42 @@ body{
     top: 2rem;
     right: 8rem;
     cursor: pointer;
+}
+
+.header h1 {
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Jersey 10" , sans-serif;
+    margin-bottom: 0.5rem;
+}
+
+#search-input {
+    width: 60%;
+    max-width: 400px;
+    padding: 10px 20px;
+    border: none;
+    box-shadow: 0 0 6px rgb(0, 0, 0, 0.5);
+    font-size: 18px;
+    border-radius: 5px;
+    color: #333;
+}
+
+#search-btn {
+    width: 10%;
+    max-width: 100px;
+    padding: 10px;
+    border: none;
+    box-shadow: 0 0 6px rgb(2, 0, 0, 0.5);
+    font-family: "New Amsterdam";
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #138065;
+    color: #fff;
+    border-radius: 4px;
+    margin-left: 3px;
+}
+
+form {
+    margin-bottom: 2rem;
 }
