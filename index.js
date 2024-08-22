@@ -55,4 +55,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     loadRandomPhotos(); // Call the function when the page loads
+
+
+    
 });
